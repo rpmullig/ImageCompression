@@ -1,0 +1,1 @@
+{"inPath": "test1.png"}
