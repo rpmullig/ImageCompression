@@ -1,5 +1,3 @@
-# Project 3
-
 ## Project Description: Image Compression with GPU Decompression
 
 Pixel-wise Huffman compression on `.png` images. Modern `.png`  use the DEFALTE algorithm, which is an extension of Huffman encoding and more effective, but for simplicity this project just focuses on using the Huffman algorithm. Essentially, each pixel will be 32bits of information, and this project converts that to a shorter version; usually the longest compressed representation will be 24bits per a highly infrequent RGBA pixel. This is a form of lossless compression, so no data is lost. 
